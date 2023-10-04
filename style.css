@@ -1,0 +1,127 @@
+/* Telechargement de l'ecriture */
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../les_villes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../les_villes/Roboto/Roboto-Bold.ttf);
+}
+
+body{
+    font-family: "Roboto Regular";
+    margin: 0;
+}
+/* Mise en place du Header */
+header{
+    background-color: rgb(150, 150, 128);
+    display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+    color : aliceblue;
+}
+.NY_marge{
+    margin-right: 10%;
+}
+
+header p{
+    margin: 1%;
+}
+/* Mise en place de body */
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 20px;
+    
+}
+section{
+    width: 25%;
+    margin: 2%;
+    
+}
+
+.Paris{
+
+   border: solid 1px;
+   box-shadow:20px 16px 13px -3px rgba(0,0,0,0.47);
+   
+   
+}
+.Tokyo{
+    border: solid 1px;
+    box-shadow:20px 16px 13px -3px rgba(0,0,0,0.47);
+   
+}
+
+.NY{
+    border: solid 1px;
+    box-shadow:20px 16px 13px -3px rgba(0,0,0,0.47);
+    
+}
+/*  */
+.imgParis{
+    background-image: url(paris.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.imgTokyo{
+    background-image: url(tokyo.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.imgNY{
+    background-image: url(new-york.jpeg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    padding: 5px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 30%;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+    }
+
+.btn_paris{
+    background: purple;}
+
+.btn_tokyo{
+    background: orangered;
+
+}
+
+.btn_NY{
+    background: blue;
+}
+
+
+p{
+    margin: 4%;
+}
+h2{
+    margin: 4%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn.btn_paris:hover{
+    color: blue;
+    background-color: blueviolet;
+}
+.btn.btn_tokyo:hover{
+    background-color: orange;
+    color: black;
+}
+.btn.btn_NY:hover{
+    background-color: aqua;
+}
